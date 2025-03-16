@@ -13,8 +13,10 @@
 
 ---
 
-## 🏆 Project Score: **100/100** 🎉
-I successfully completed the `ft_printf` project with a perfect score!
+## 🏆 Project Score
+✅ **I achieved a perfect score of 100/100 on this project!** 🎯
+
+---
 
 ## 🗣️ What is `printf`?
 
@@ -93,6 +95,37 @@ A **macro** is a preprocessor directive (`#define`) that replaces code segments 
 | **Object-like** | Replaces a value or code segment |
 | **Function-like** | Acts like a function with arguments |
 | **Chain-like** | Uses macros inside other macros |
+
+---
+
+## 🛠️ How to Use
+
+This project includes a `Makefile` to easily compile the library.
+
+### 🔹 Compilation
+Run the following command to compile the library:
+```sh
+make
+```
+This will generate the `libftprintf.a` archive file.
+
+### 🔹 Usage in Your Code
+To use `ft_printf` in your project, include the header and link the library:
+```c
+#include "ft_printf.h"
+```
+Compile your program with:
+```sh
+gcc main.c libftprintf.a -o my_program
+```
+
+### 🔹 Cleaning
+To remove object files and binaries:
+```sh
+make clean   # Removes object files
+make fclean  # Removes object files and library
+make re      # Cleans and recompiles everything
+```
 
 ---
 
