@@ -13,6 +13,9 @@
 
 ---
 
+## 🏆 Project Score: **100/100** 🎉
+I successfully completed the `ft_printf` project with a perfect score!
+
 ## 🗣️ What is `printf`?
 
 The `printf` function (short for **print formatted**) constructs and displays strings by integrating multiple values based on a specified format.
@@ -44,7 +47,7 @@ In `scanf`:
 
 ## ⚙️ Variadic Functions
 
-A **variadic function** allows an undefined number of arguments.
+A **variadic function** allows an undefined number of arguments. 
 
 ### 📌 `va_list` Structure
 ```c
